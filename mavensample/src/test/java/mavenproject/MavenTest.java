@@ -24,7 +24,7 @@ public class MavenTest {
 		
 		@Test
 		public static void openBrowser() {
-			System.setProperty("webdriver.chrome.driver", "C:/Selenium Automation/Driver/chromedriver_win32_80/chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "src/test/java/Resources/chromedriver.exe");	
 			
 			driver=new ChromeDriver();
 					
