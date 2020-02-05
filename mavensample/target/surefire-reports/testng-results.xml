@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="mavenproject.MavenTest" duration-ms="15332" started-at="2020-02-05T05:00:16Z" finished-at="2020-02-05T05:00:31Z">
+  <suite name="mavenproject.MavenTest" duration-ms="17408" started-at="2020-02-05T05:09:53Z" finished-at="2020-02-05T05:10:11Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="15332" started-at="2020-02-05T05:00:16Z" finished-at="2020-02-05T05:00:31Z">
+    <test name="Command line test" duration-ms="17408" started-at="2020-02-05T05:09:53Z" finished-at="2020-02-05T05:10:11Z">
       <class name="mavenproject.MavenTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mavenproject.MavenTest@6442b0a6]" name="openBrowser" duration-ms="12123" started-at="2020-02-05T05:00:16Z" finished-at="2020-02-05T05:00:28Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mavenproject.MavenTest@79b4d0f]" name="openBrowser" duration-ms="14550" started-at="2020-02-05T05:09:53Z" finished-at="2020-02-05T05:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="search()[pri:0, instance:mavenproject.MavenTest@6442b0a6]" name="search" duration-ms="3184" started-at="2020-02-05T05:00:28Z" finished-at="2020-02-05T05:00:31Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:mavenproject.MavenTest@79b4d0f]" name="search" duration-ms="2768" started-at="2020-02-05T05:10:08Z" finished-at="2020-02-05T05:10:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->

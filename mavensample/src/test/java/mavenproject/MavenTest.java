@@ -8,6 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
+import static io.github.bonigarcia.wdm.DriverManagerType.CHROME;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class MavenTest {
@@ -24,8 +27,8 @@ public class MavenTest {
 		
 		@Test
 		public static void openBrowser() {
-			System.setProperty("webdriver.chrome.driver", "src/test/java/Resources/chromedriver.exe");	
-			
+			//System.setProperty("webdriver.chrome.driver", "src/test/java/Resources/chromedriver.exe");	
+			WebDriverManager.getInstance(CHROME).setup();
 			driver=new ChromeDriver();
 					
 			driver.manage().window().maximize();
