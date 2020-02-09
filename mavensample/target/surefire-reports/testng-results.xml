@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13934" started-at="2020-02-09T04:25:17Z" finished-at="2020-02-09T04:25:31Z">
+  <suite name="Suite" duration-ms="17711" started-at="2020-02-09T17:17:32Z" finished-at="2020-02-09T17:17:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13934" started-at="2020-02-09T04:25:17Z" finished-at="2020-02-09T04:25:31Z">
+    <test name="Test" duration-ms="17711" started-at="2020-02-09T17:17:32Z" finished-at="2020-02-09T17:17:50Z">
       <class name="mavenproject.MavenTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mavenproject.MavenTest@6108b2d7]" name="openBrowser" duration-ms="10555" started-at="2020-02-09T04:25:17Z" finished-at="2020-02-09T04:25:27Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:mavenproject.MavenTest@6adede5]" name="openBrowser" duration-ms="12852" started-at="2020-02-09T17:17:32Z" finished-at="2020-02-09T17:17:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="search()[pri:0, instance:mavenproject.MavenTest@6108b2d7]" name="search" duration-ms="3352" started-at="2020-02-09T04:25:27Z" finished-at="2020-02-09T04:25:31Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:mavenproject.MavenTest@6adede5]" name="search" duration-ms="4840" started-at="2020-02-09T17:17:45Z" finished-at="2020-02-09T17:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
