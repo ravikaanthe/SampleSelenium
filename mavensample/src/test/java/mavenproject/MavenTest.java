@@ -17,11 +17,12 @@ public class MavenTest {
 	
 	public static WebDriver driver;
 
-		@Test
+		
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
+			MavenTest.openBrowser();
+			MavenTest.search();
 			
-			System.out.println("Logging inot the account");
 			
 		}
 		

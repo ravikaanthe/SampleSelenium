@@ -73,30 +73,35 @@
             </configuration>
         </plugin>
     
-    <plugin>
-    <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.1.1</version>
-        <configuration>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-          <archive>
+          <plugin>
+
+      <!-- Build an executable JAR -->
+
+      <groupId>org.apache.maven.plugins</groupId>
+
+      <artifactId>maven-jar-plugin</artifactId>
+
+      <version>3.1.0</version>
+
+      <configuration>
+
+        <archive>
+
           <manifest>
-          <mainClass>mavenproject.MavenTest</mainClass>
+
+            <addClasspath>true</addClasspath>
+
+            <classpathPrefix>lib/</classpathPrefix>
+
+            <mainClass>com.mavenproject.MavenTest</mainClass>
+
           </manifest>
-          </archive>
-        </configuration>
-        <executions>
-          <execution>
-            <id>make-assembly</id> <!-- this is used for inheritance merges -->
-            <phase>package</phase> <!-- bind to the packaging phase -->
-            <goals>
-              <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
+
+        </archive>
+
+      </configuration>
+
     </plugin>
-    
     
 
 </plugins>
